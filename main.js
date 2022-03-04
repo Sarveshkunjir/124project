@@ -13,7 +13,7 @@ function setup(){
 }
 function draw(){
     background("red");
-    document.getElementById("square_side").innerHTML="widht and may be="+difference+"px";
+    document.getElementById("square_sides").innerHTML="width and height="+difference+"px";
     fill('#F90093');
     stroke('#F90093');
     square(noseX,noseY,difference);
